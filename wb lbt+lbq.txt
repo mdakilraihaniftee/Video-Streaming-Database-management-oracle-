@@ -1,0 +1,15 @@
+
+https://www.youtube.com/watch?v=8A0MSuqmGdM
+Basics of MVC with redirection to another view in VS 2013
+
+Redirect to another controller
+https://www.youtube.com/watch?v=237mAfuoRsY
+
+responsive navbar
+https://alivecoder.com/navigation-bar-in-html-css-javascript/
+
+responsive login signin
+https://www.youtube.com/watch?v=q-Zyc7Lw-_0
+
+responsive cart
+https://www.youtube.com/watch?v=3vYsl8GzEms&t=35s

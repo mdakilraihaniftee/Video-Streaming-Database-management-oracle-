@@ -1,0 +1,43 @@
+String hr,s,d,c;
+
+        hr=heartrate.getText().toString();
+        if(TextUtils.isEmpty(hr))
+        {
+            systolic.setError("Required");
+            return;
+        }
+        int x=Integer.parseInt(hr);
+        if(x<40 || x>180)
+        {
+            systolic.setError("Invalid Data!");
+            return;
+        }
+
+
+        s=systolic.getText().toString();
+
+        if(TextUtils.isEmpty(hr))
+        {
+            systolic.setError("Required");
+            return;
+        }
+        x=Integer.parseInt(hr);
+        if(x<60 || x>200)
+        {
+            systolic.setError("Invalid Data!");
+            return;
+        }
+
+        d=diastolic.getText().toString();
+
+        if(TextUtils.isEmpty(hr))
+        {
+            systolic.setError("Required");
+            return;
+        }
+        x=Integer.parseInt(hr);
+        if(x<20 || x>150)
+        {
+            systolic.setError("Invalid Data!");
+            return;
+        }
