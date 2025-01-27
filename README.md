@@ -1,6 +1,4 @@
-Here’s a sample README file content for your video streaming site DBMS project. This README provides an overview of your project, how to set it up, and explanations for key components.
 
----
 
 # Video Streaming Site DBMS
 
@@ -9,7 +7,15 @@ Here’s a sample README file content for your video streaming site DBMS project
 This project implements a Database Management System (DBMS) for a video streaming platform, similar to YouTube. It provides functionalities for managing users, channels, subscriptions, videos, playlists, and interactions (such as likes and views). The system uses SQL queries to handle and manipulate data efficiently. The project involves a variety of features, including data modification, aggregation, joins, and PL/SQL procedures.
 
 ## Database Structure
+## Database Structure
 
+The DBMS schema is represented in the following diagrams:
+
+### E-R Diagram
+![E-R Diagram](images/er_diagram.jpg)
+
+### Schema Diagram
+![Schema Diagram](images/schema_diagram.jpg)
 The DBMS consists of the following tables:
 
 1. **users**: Stores user information, including their ID, name, email, gender, birth date, and country.
